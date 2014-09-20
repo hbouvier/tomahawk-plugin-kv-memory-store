@@ -39,6 +39,6 @@ function testSET(next) {
 
 testKV(function () {
 	testSET(function () {
-		store.close();
+		process.exit();
 	});
 });
