@@ -1,8 +1,11 @@
 {
   "name": "tomahawk-plugin-kv-memory-store",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Tomahawk plugin, implementing a Key Value Pair Store in Memory.",
   "main": "lib/store.js",
+  "bin": {
+    "kv-store-plugin": "./bin/kv-store-plugin"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/hbouvier/tomahawk-plugin-kv-memory-store.git"
